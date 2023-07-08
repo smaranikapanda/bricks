@@ -1,0 +1,113 @@
+.pack{
+    background-image: url("/public/assets/Rectangle\ .png");
+    height: 110vh;
+    width:100%;
+    margin-bottom: -24px; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pack .pack-qoute{
+   margin-top: 11rem;
+   font-size: 50px;
+   font-weight: 700;
+   color: #fff;
+}
+.first-package{
+  background-color: whitesmoke;
+  padding: 20px;
+  color: #000;
+  width: 320px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  
+}
+.second-package{
+    background-color: #ff6400;
+    padding: 20px;
+    color: #fff;
+    width: 320px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.third-package{
+    background-color: navy;
+    padding: 20px;
+    color: #fff;
+    width: 320px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.para1{
+    width: 200px;
+}
+.para2{
+    width: 200px;
+}
+.para3{
+    width: 200px;
+}
+.first button{
+    background-color: rgba(0, 0, 0, 0.87);
+    padding: 14px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 10px 25px 10px 25px;
+}
+.second button{
+    background-color: #ff6400;
+    padding: 10px 25px 10px 25px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    justify-content: center;
+}
+.third button{
+    padding: 14px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: navy;
+    padding: 10px 25px 10px 25px;
+}
+.second-details ul li span{
+    background-color: #ff6400;
+    color: #fff;
+    border-radius: 3px;
+    padding: 1px;
+    font-size: 12px;
+}
+.second-details ul li {
+    list-style: none;
+    padding: 3px;
+}
+.second-details{
+    background-color: #fafafa;
+    width: 340px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+ .details ul li{
+    list-style: circle;
+    list-style-position:outside;
+} 
+.accordion-button{
+    color:#ff6400;
+    margin: 7px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+@media only screen and (max-width: 400px) and (min-width: 320px) {
+    .pack span{
+      font-size: 22px;
+    }
+    .pack{
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+    }
+  }
+

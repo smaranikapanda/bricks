@@ -1,0 +1,27 @@
+.package-btn-1{
+    background-color: #ff6400;
+    padding: 12px;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+  .package-btn-2{
+    background-color: #2B3062;
+    padding: 12px;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+  .packages{
+    background-color: #FAFAFA;
+  }
+  @media only screen and (max-width: 400px) and (min-width: 320px)  {
+    .package-btn-1{
+      font-size: 10px;
+    }
+    .package-btn-2{
+      font-size: 10px;
+    }
+  }

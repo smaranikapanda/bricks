@@ -1,0 +1,115 @@
+.navbar{
+    background: none;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+  }
+  .navbar-contents{
+    align-content: center;
+    justify-content: space-around;
+    position: relative;
+    color: white;
+    font-weight: 600;   
+  }
+  .nav-link{
+    color: white;
+  }
+  .nav-hov :hover{
+    color:#ff6400;
+    font-size: 18px;
+    text-shadow: 2px white;
+  
+    border-bottom: 3px solid #ff6400;
+  }
+  .nav-item{
+    color: #fff;
+  }
+  .navbar-btn{
+    background-color: #ff6400;
+    border: none;
+    font-size: 13px;
+    color:#fff;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    border-radius: 6px;
+    border:none;
+  }
+  .navbar-btn :hover{
+  background-color: #ff6400;
+  }
+ .navbar-toggle{
+    display: none;
+  } 
+ 
+  @media only screen and (max-width: 400px) and (min-width: 320px) {
+    .navbar-contents img{
+      width:150px;
+      position: relative;
+      right: 36px;
+    }
+    
+    .navbar-toggle{
+      position: relative;
+      display: flex;
+      left: 42px;
+      background-color:#ff6400;
+      border: none;
+      border-radius: 4px;
+      padding: 8px;
+    } 
+    .nav-link{
+      text-align: center;
+    }
+   .navbar-btn{
+    display: none;
+   }
+    
+  }
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+    .navbar{
+      background: none;
+      justify-content: center;
+      align-items: center;
+      display: inline-block;
+      position: fixed; /* Set the navbar to fixed position */
+      top: 0; /* Position the navbar at the top of the page */
+    }
+    .navbar-contents{
+      align-content: center;
+      justify-content: space-around;
+      position: relative;
+      color: white;
+      font-weight: 600;   
+    }
+    .navbar-nav ul{
+      text-align: center;
+    }
+    .nav-item :hover{
+      color:#ff6400;
+      font-size: 15px;
+      text-shadow: 2px white;
+      border-bottom: 3px solid #ff6400;
+    }
+    .navbar-btn{
+      display: none;
+     }
+    .nav-link{
+      text-align: center;
+    }
+    .navbar-toggle{
+      position: relative;
+      display: flex;
+      left: 12em;
+      background-color:#ff6400;
+      border: none;
+      border-radius: 4px;
+      padding: 10px;
+    } 
+  }
+  

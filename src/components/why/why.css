@@ -1,0 +1,30 @@
+.underline{
+    border-bottom: 3px solid #ff6400;
+    padding-bottom: 5px;
+  }
+  .fifth-section img{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 45px;
+  }
+  .fifth-section h6{
+    
+    width: 170px;
+    align-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+  .fifth-section span{
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+  }
+  .fifth-section p{
+    text-align: justify;
+  }
+  .fifth{
+    align-content: center;
+    justify-content: center;
+    
+  }

@@ -1,0 +1,91 @@
+.blog{
+    background-color: grey;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.blog-list img{
+  width: 800px;
+}
+.second-div-one{
+    width: 100%;
+    height: 100px;
+    background-color: #2B3062;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .second-div-two{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+  }
+  .first-blog{
+    margin-top: 20px;
+  }
+  .second-button{
+    background-color: #ff6400;
+    font-size: 13px;
+  }
+  .second-button :hover{
+    background-color: #ff6400;
+  }
+  .blog-img img{
+    width: 100%;
+  }
+  .blog-list .card{
+    width: 800px;
+    border: none;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+  }
+  .blog-list .card h5{
+    color:#ff6400;
+    font-weight: 700;
+  }
+  .blog-list-img img{
+    width: 100%;
+  }
+  .blog-list .card p{
+    text-align: justify;
+  }
+  .blog-details p{
+    width: 800px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+  }
+  .read a{
+    text-decoration: none;
+    color: #ff6400;font-style: none;
+  }
+  .blog-list h4{
+    color:#ff6400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .blog-detailed p{
+    width: 800px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #ff6400;
+    font-size: 16px;
+    
+  }
+  @media only screen and (max-width: 400px) and (min-width: 320px) {
+  .blog-img img{
+    width: 100%;
+  }
+  .blog-list img{
+    width: 100%;
+  }
+  .blog-details{
+    width: 100%;
+  }
+  }
